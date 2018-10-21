@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node index.js",
+    "start": "babel-node src/index.js",
     "dev": "nodemon --exec npm start",
     "fmt": "prettier --config .prettierrc --write src/**/*.{js,jsx,json} src/**/**/*.{js,jsx,json}"
   },
