@@ -1,0 +1,31 @@
+{
+  "name": "js-play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node index.js",
+    "dev": "nodemon --exec npm start",
+    "fmt": "prettier --config .prettierrc --write src/**/*.{js,jsx,json} src/**/**/*.{js,jsx,json}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luyi985/js-play.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luyi985/js-play/issues"
+  },
+  "homepage": "https://github.com/luyi985/js-play#readme",
+  "devDependencies": {
+    "babel-cli": "latest",
+    "babel-plugin-transform-class-properties": "latest",
+    "babel-plugin-transform-decorators-legacy": "latest",
+    "babel-preset-env": "latest",
+    "nodemon": "latest",
+    "prettier": "latest"
+  }
+}
